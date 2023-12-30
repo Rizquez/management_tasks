@@ -3,10 +3,10 @@
 ![img](images/img_2.jpg)
 ![img](images/img_1.jpg)
 
-Este proyecto es una aplicación web desarrollada para practicar y demostrar habilidades en el uso de los frameworks Django (backend) y React (frontend). Permite a los usuarios realizar operaciones básicas de gestión de tareas como registrar, editar y eliminar tareas. Este proyecto es ideal para aquellos que buscan entender cómo integrar Django con React en una aplicación web.
+Este proyecto es una aplicación web desarrollada para permitir a los usuarios realizar operaciones básicas de gestión de tareas.
 
 > [!IMPORTANT]
-Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados a las REST API, asi como comenzar a realizar estudios sobre los Framework de Django, React y la aplicacion de SGBD en aplicaciones WEB. Se recomienda a quien vaya a usar este proyecto de estudio lease el fichero NOTE.txt ya que puede servir de ayuda.
+Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados a las REST API, asi como comenzar a realizar estudios sobre los Framework de Django, React y la aplicacion de SGBD en la integracion de una aplicaciones WEB. Se recomienda a quien vaya a usar este proyecto de estudio lease el fichero NOTE.txt ya que puede servir de ayuda.
 
 ## Tecnologías Utilizadas
 1. Backend: Django.
