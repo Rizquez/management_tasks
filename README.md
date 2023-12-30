@@ -19,7 +19,7 @@ Sera necesario la creación de una BBDD con su respectiva tabla. Se sugiere la s
 ## Creacion del entorno de virtual:
 Comando para crear un entorno virual de desarrollo.
 ```
-python -m virtualenv nombreEntorno
+python -m virtualenv venv
 ```
 
 > [!TIP]
