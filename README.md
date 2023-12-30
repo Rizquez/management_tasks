@@ -3,7 +3,7 @@
 ![img](images/img_2.jpg)
 ![img](images/img_1.jpg)
 
-Este proyecto es una aplicación web desarrollada para brindarle a los usuarios la posibilidad de realizar operaciones básicas sobre la gestión de tareas asi como un seguimiento sobre estas.
+Este proyecto basado en la integracion de dos framework, es una aplicación web desarrollada para brindarle a los usuarios la posibilidad de realizar operaciones básicas sobre la gestión de tareas asi como un seguimiento sobre estas, pudiendo registrar, editar o eliminar tareas segun lo amerite.
 
 > [!IMPORTANT]
 Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados a las REST API, asi como comenzar a realizar estudios sobre los Framework de Django, React y la aplicacion de SGBD en la integracion de una aplicaciones WEB. Se recomienda a quien vaya a usar este proyecto de estudio lease el fichero NOTE.txt ya que puede servir de ayuda.
@@ -14,12 +14,7 @@ Este proyecto es de caracter educativo y sirve para entender conceptos basicos r
 3. Base de Datos: SQLite (no excluyente).
 
 > [!NOTE]
-Sera necesario la creacion tanto de la BBDD con la relacion de la misma con este proyecto para poder obtener la funcionalidad del mismo de manera optima. Se sugiere la seleccion de una BBDD SQLite aunque no es excluyente, pudiendo escoger cualquier otra BBDD relacional para el uso de este proyecto.
-
-## Funcionalidad
-1. Registro de tareas
-2. Edición de tareas existentes
-3. Eliminación de tareas
+Sera necesario la creación de una BBDD con su respectiva tabla. Se sugiere la seleccion de SQLite (aunque no es excluyente), pudiendo escoger cualquier otra BBDD relacional para el uso de este proyecto.
 
 ## Creacion del entorno de virtual:
 python -m virtualenv nombreEntorno
