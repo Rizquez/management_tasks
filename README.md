@@ -17,14 +17,23 @@ Este proyecto es de caracter educativo y sirve para entender conceptos basicos r
 Sera necesario la creación de una BBDD con su respectiva tabla. Se sugiere la seleccion de SQLite (aunque no es excluyente), pudiendo escoger cualquier otra BBDD relacional para el uso de este proyecto.
 
 ## Creacion del entorno de virtual:
+Comando para crear un entorno virual de desarrollo.
+```
 python -m virtualenv nombreEntorno
+```
 
 > [!TIP]
 Se recomienda la creación de un entorno virtual para optimizar el desarrollo y la ejecución del proyecto.
 
 ## Dependencias
-pip freeze > requirements.txt  
+Comando para instalar las dependencias necesarias sobre este proyecto.
+```
 pip install -r requirements.txt
+```
+Comando para crear o actualizar el archivo txt que almacena las dependencias del proyecto.
+```
+pip freeze > requirements.txt  
+```
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz un 'fork' del repositorio, crea una rama con tus mejoras y envía un 'pull request'.
