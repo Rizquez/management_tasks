@@ -16,6 +16,66 @@ Este proyecto es de caracter educativo y sirve para entender conceptos basicos r
 > [!NOTE]
 Sera necesario la creación de una BBDD con su respectiva tabla. Se sugiere la seleccion de SQLite (aunque no es excluyente), pudiendo escoger cualquier otra BBDD relacional para el uso de este proyecto.
 
+## Estructura del proyecto
+```
+├── .gitignore
+├── LICENSE
+├── NOTES.txt
+├── README.md
+├── db.sqlite3
+├── manage.py
+├── requirements.txt
+├── tasks
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serializer.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── images
+│   ├── img_1.jpg
+│   └── img_2.jpg
+├── django_crud_api
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── client
+    ├── public
+    │   └── vite.svg
+    ├── src
+    │   ├── api
+    │   │   └── tasks.api.js
+    │   ├── assets
+    │   │   └── react.svg
+    │   ├── components
+    │   │   ├── Navigation.jsx
+    │   │   ├── TaskCard.jsx
+    │   │   └── TasksList.jsx
+    │   ├── pages
+    │   │   ├── TaskFormPage.jsx
+    │   │   └── TasksPage.jsx
+    │   ├── App.css
+    │   ├── App.jsx
+    │   ├── index.css
+    │   └── main.jsx
+    ├── .eslintrc.cjs
+    ├── .gitignore
+    ├── README.md
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── tailwind.config.js
+    └── vite.config.js
+```
+
 ## Creacion del entorno de virtual:
 Se necesitara tener instalada previamente la libreria 'virtualenv', en caso contrario se podra instalar ejecutando el siguiente comando:
 ```
