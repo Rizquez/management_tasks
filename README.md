@@ -1,4 +1,4 @@
-# Management Tasks / Django CRUD - (V.2)
+# Management Tasks / Django CRUD + Bootstrap - (V.2)
 
 ## Tecnologías Utilizadas
 
