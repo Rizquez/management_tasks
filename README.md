@@ -1,4 +1,4 @@
-# Management Tasks (CRUD) - Django and React + Vite (V.2)
+# Management Tasks / Django CRUD - (V.2)
 
 ## Tecnologías Utilizadas
 
