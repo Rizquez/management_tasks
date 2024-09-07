@@ -1,5 +1,5 @@
 # Management Tasks / Django CRUD + Bootstrap - (V.2)
-Este proyecto es una aplicacion web desarrollada con Django y Bootstrap para practicar las operaciones `CRUD` (Crear, Leer, Actualizar, Eliminar) con autenticacion de usuario. Permite gestionar tareas dentro de un sistema que requiere que los usuarios inicien sesion para acceder a sus funcionalidades.
+Este proyecto es una aplicacion web desarrollada con Django y Bootstrap para practicar las operaciones `CRUD` (Crear, Leer, Actualizar, Eliminar) con autenticacion de usuario y proteccion de acceso a rutas dentro de la aplicacion web. Permite gestionar tareas dentro de un sistema que requiere que los usuarios inicien sesion para acceder a sus funcionalidades.
 
 > [!NOTE]
 > Esta segunda version del proyecto es refactorizada con la intencion de aplicar conceptos nuevos aprendidos sobre el framework de `Django`.
