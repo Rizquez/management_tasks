@@ -1,5 +1,35 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Home</h1>
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">CRUD Application</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus eleifend nunc, suscipit suscipit eros vestibulum et. 
+            Mauris ultrices, diam vitae eleifend elementum, purus sapien bibendum massa, non maximus arcu nibh eget elit. Orci varius natoque 
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut id ipsum vel leo auctor elementum eget eu eros. Aliquam mattis 
+            ante sed purus volutpat, nec eleifend dolor ultricies. Curabitur placerat, ligula eu consectetur rhoncus, magna nunc iaculis ex, quis 
+            congue justo nisi at ligula. Nunc in nibh ultricies, faucibus eros at, dignissim felis. Maecenas congue libero condimentum quam blandit 
+            condimentum. Vivamus consectetur dapibus quam. Sed velit elit, blandit sed nisl vitae, imperdiet elementum est. Praesent volutpat ultricies 
+            venenatis. Phasellus non ante in eros imperdiet malesuada vitae vitae eros. In et dui id libero pulvinar feugiat.
+        </p>
+        <p>
+            Mauris mollis dui nibh, id facilisis mauris sollicitudin malesuada. Integer et tortor eget eros bibendum luctus. Aliquam laoreet a nulla 
+            eu sollicitudin. Sed at rutrum orci. Sed egestas ligula ex, nec condimentum felis sodales id. Phasellus justo libero, interdum quis purus 
+            id, iaculis tincidunt libero. Etiam ut dolor efficitur, dictum nibh sit amet, imperdiet nisi. Mauris dui tortor, vulputate non ornare at, 
+            mollis ac nisl. Nam ligula quam, hendrerit ac odio a, sagittis laoreet felis. Proin et eleifend magna. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Ut fermentum eget nisi id placerat. Phasellus faucibus eget risus at placerat. Maecenas vehicula, nisl at tristique sodales, 
+            mauris ligula rutrum nisi, accumsan tincidunt diam nibh sed lectus. In hac habitasse platea dictumst. Cras vehicula nibh quis tellus pretium, 
+            eu fringilla mi faucibus.
+        </p>
+        <div class="text-center">
+            <a class="btn btn-secondary" href="{% url 'signin' %}">
+                Signin
+            </a>
+            <a class="btn btn-dark" href="{% url 'signup' %}">
+                Signup
+            </a>
+        </div>
+    </section>
+</main>
 {% endblock %}

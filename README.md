@@ -1,16 +1,16 @@
-# Management Tasks / Django CRUD + Bootstrap - (V.2)
-Este proyecto es una aplicacion web desarrollada con Django y Bootstrap para practicar las operaciones `CRUD` (Crear, Leer, Actualizar, Eliminar) con autenticacion de usuario y proteccion de acceso a rutas dentro de la aplicacion web. Permite gestionar tareas dentro de un sistema que requiere que los usuarios inicien sesion para acceder a sus funcionalidades.
+# Management Tasks - (V.2)
+Este proyecto es una aplicación web desarrollada con Django y Bootstrap, diseñada para gestionar tareas con funcionalidades completas de operaciones `CRUD`, autenticación de usuario y protección de rutas. Está diseñado para usuarios que necesitan iniciar sesión para acceder a sus funcionalidades.
 
 > [!NOTE]
-> Esta segunda version del proyecto es refactorizada con la intencion de aplicar conceptos nuevos aprendidos sobre el framework de `Django`.
+> Esta versión ha sido refactorizada para incorporar conceptos avanzados y nuevas prácticas aprendidas en `Django`.
 
 ## Tecnologias Utilizadas
-- **Django**: Framework de desarrollo web de alto nivel que fomenta el desarrollo rapido y el diseño limpio y pragmatico.
-- **Bootstrap**: Framework de CSS para desarrollar componentes y diseños responsivos de forma rapida y eficiente.
-- **SQLite**: Base de datos utilizada para el almacenamiento de datos (configurable a otras bases de datos).
+- **Django**: Framework de desarrollo web de alto nivel que promueve un desarrollo rápido y un diseño limpio y pragmático.
+- **Bootstrap**: Framework de CSS que facilita el desarrollo de componentes y diseños responsivos.
+- **SQLite**: Sistema de gestión de bases de datos utilizado para el almacenamiento de datos (configurable para usar otras bases de datos).
 
 ## Estructura del proyecto
-Descripcion de como esta organizado el proyecto:
+El proyecto se organiza de la siguiente manera:
 ```
 ├── djangocrud
 │   ├── asgi.py 
@@ -34,35 +34,39 @@ Descripcion de como esta organizado el proyecto:
 └── requierments.txt
 ```
 
-## Creacion del entorno de virtual
-Se necesitara tener instalada previamente la libreria `virtualenv`, en caso contrario se podra instalar ejecutando el siguiente comando:
+## Configuración del Entorno Virtual
+Para configurar el entorno de desarrollo:
+1. Instala `virtualenv` si aún no está instalado:
 ```
 pip install virtualenv
 ```
-Una vez instalada, para crear un entorno de desarrollo se debe ejecutar:
+2. Crea el entorno virtual:
 ```
 python -m virtualenv venv
 ```
-Y para activar el entorno virtual se debe ejecutar el comando:
+3. Activa el entorno virtual:
 ```
 venv\Scripts\activate
 ```
 
 > [!TIP]
-> Se recomienda la creacion de un entorno virtual para optimizar el desarrollo y la ejecucion del proyecto.
+> Se recomienda utilizar un entorno virtual optimiza el desarrollo y la ejecución del proyecto.
 
-## Dependencias
-Las dependencias de este proyecto se encuentran en el fichero `requirements.txt`, las cuales se instalan mediante la ejecucion del siguiente comando:
+## Instalación de dependencias
+Instala las dependencias listadas en `requirements.txt` con el comando:
 ```
 pip install -r requirements.txt
 ```
 
 ## Recursos adicionales
-* [Django docs](https://docs.djangoproject.com/en/5.1/)
-* [Bootstrap docs](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+* [Documentación de Django](https://docs.djangoproject.com/en/5.1/)
+* [Documentación de Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
 ## Contribuciones
-Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz un `fork` del repositorio, crea una rama con tus mejoras y envia un `pull request`.
+Las contribuciones son bienvenidas. Para contribuir:
+1. Haz un `fork` del repositorio.
+2. Crea una rama para tus mejoras.
+3. Envía un `pull request`.
 
 ## Licencia
-Este proyecto esta bajo una licencia `MIT`. Consulta el archivo `LICENSE` para mas detalles.
+Este proyecto está licenciado bajo la licencia `MIT`. Consulta el archivo `LICENSE` para más detalles.
