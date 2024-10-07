@@ -1,4 +1,5 @@
-# Management Tasks - (V.2)
+# Management Tasks
+![img](images/django-crud-app.jpg)
 Este proyecto es una aplicación web desarrollada con Django y Bootstrap, diseñada para gestionar tareas con funcionalidades completas de operaciones `CRUD`, autenticación de usuario y protección de rutas. Está diseñado para usuarios que necesitan iniciar sesión para acceder a sus funcionalidades.
 
 > [!NOTE]
