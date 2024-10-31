@@ -2,6 +2,9 @@
 ![img](images/django-crud-app.jpg)
 Este proyecto es una aplicación web desarrollada con Django y Bootstrap, diseñada para gestionar tareas con funcionalidades completas de operaciones `CRUD`, autenticación de usuario y protección de rutas. Está diseñado para usuarios que necesitan iniciar sesión para acceder a sus funcionalidades.
 
+> [!IMPORTANT]
+> Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de Django para la creacion de aplicaciones web con Python.
+
 > [!NOTE]
 > Esta versión ha sido refactorizada para incorporar conceptos avanzados y nuevas prácticas aprendidas en `Django`.
 
